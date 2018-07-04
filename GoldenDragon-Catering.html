@@ -1,0 +1,109 @@
+<!doctype html>
+<style>
+    #footer {
+    font-size: 20px;
+    font-family: monotype corsiva;
+    color: yellow;
+    background-color: orangered;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+    .textbox1 {
+        text-align: left;
+        padding: 8px;
+        width: 55vw;
+        margin-top: 50px;
+    }
+    @media screen and (max-width: 575px) {
+        .textbox1 {
+            width: 100vw;
+        }
+    }
+</style>
+<html>
+    <link rel="stylesheet" type="text/css" href="GoldenDragon-Style.css">
+    <!- font size = Monotype corsiva -->
+    <title>The Golden Dragon</title>
+        <link rel="icon" type="image/x-icon" href="Project_Afbeeldingen/DragonIcon.png">
+    <header>
+        <ul class="klein">
+            <li class="klein"><a href="GoldenDragon-Home.html"><img src="Project_Afbeeldingen/Nav_images/Home.png" height="45px"></a></li>
+            <li class="klein"><a href="GoldenDragon-OurMenu.html"><img src="Project_Afbeeldingen/Nav_images/Our_Menu.png" height="45px"></a></li>
+            <li class="klein"><a href="GoldenDragon-AboutUs.html"><img src="Project_Afbeeldingen/Nav_images/About_Us.png" height="45px"></a></li>
+            <li class="klein"><a href="GoldenDragon-Gallery.html"><img src="Project_Afbeeldingen/Nav_images/Gallery.png" height="45px"></a></li>
+            <li class="klein"><a href="GoldenDragon-Catering.html"><img src="Project_Afbeeldingen/Nav_images/Catering.png" height="45px"></a></li>
+            <li class="klein"><a href="GoldenDragon-Contact.html"><img src="Project_Afbeeldingen/Nav_images/Contact.png" height="45px"></a></li>
+        </ul>
+        <img id="logo" src="Project_Afbeeldingen/GoldenDragonLogo.jpg" width="100%" height="600px">
+        <strong>
+        <ul class="groot">
+            <li class="groot"><a href="GoldenDragon-Home.html">Home</a></li>
+            <li class="groot"><a href="GoldenDragon-OurMenu.html">Our Menu</a></li>
+            <li class="groot"><a href="GoldenDragon-AboutUs.html">About Us</a></li>
+            <li class="groot"><a href="GoldenDragon-Gallery.html">Gallery</a></li>
+            <li class="groot"><a href="GoldenDragon-Catering.html">Catering</a></li>
+            <li class="groot"><a href="GoldenDragon-Contact.html">Contact</a></li>
+        </ul>
+        </strong>
+        <!- font size = Monotype corsiva -->
+    </header>
+    <body>
+        <center>
+        <h1>Catering</h1>
+            <h2>If you're planning on organising an event of some kind, you can easily organise it at the Golden Dragon. You simply have to fill in this form.</h2>
+        <div class="textbox1">
+            <form>
+                Your name: 
+                <input type="text" name="Name"><br>
+                Telephone number: 
+                <input type="text" name="Number"><br>
+                Email adress: 
+                <input type="text" name="Email"><br>
+                What's the event called?
+                <input type="text" name="Event"><br>
+                When's the event happening?
+                <input type="date" name="Date" placeholder="mm/dd/yyyy"><br>
+
+                What region is the event in?
+  <select name="Region">
+    <option value="Zuid-Holland">Zuid-Holland</option>
+    <option value="Noord-Holland">Noord-Holland</option>
+    <option value="Zeeland">Zeeland</option>
+    <option value="Utrecht">Utrecht</option>
+    <option value="Noord-Brabant">Noord-Brabant</option>
+    <option value="Gelderland">Gelderland</option>
+    <option value="Limburg">Limburg</option>
+    <option value="Flevoland">Flevoland</option>
+    <option value="Overijssel">Overijssel</option>
+    <option value="Drenthe">Drenthe</option>
+    <option value="Groningen">Groningen</option>
+    <option value="Friesland">Friesland</option>
+  </select>
+
+                <br>
+                Please provide any other details you think will be useful to us in the text area below:<br><br>
+  <textarea name="Details" rows="12" cols="35"></textarea>
+
+                <br>
+                If we need to call you back for any more info, what would be the best time to call you on the number supplied?<br>
+  <input type="radio" name="time" value="morning">In the morning<br>
+  <input type="radio" name="time" value="afternoon">In the afternoon<br>
+  <input type="radio" name="time" value="evening">In the evening<br>
+  <input type="radio" name="time" value="none">No calls please<br>    
+
+                <br>
+                We may share information you give us here with other like-minded people or websites to promote the event. Please confirm if you are happy for us to do this.<br>
+                <input type="checkbox" name="agreement" value="Yes" checked>I am happy for this event to be publicized outside of and beyond this website, where possible.<br><br>
+                <input type="submit" value="Send us the info"><br><br>
+            </form>
+            <p>If you need to get in touch urgently, please call <b>[insert name]</b> on <b>[insert number]</b>. For anything else, please <a href="mailto:Liammeijles@gmail.com?Subject=Questions" target="_top"><u>drop us a line by email</u></a>.</p>
+            </div>
+        </center>
+    </body>
+    <footer>
+        <p id="footer">© This project belongs to Liam Christopher Meijles</p>
+    </footer>
+</html>
